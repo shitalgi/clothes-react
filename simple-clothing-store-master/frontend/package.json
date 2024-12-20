@@ -1,0 +1,52 @@
+{
+  "name": "simple-clothing-store-frontend",
+  "version": "0.0.2",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.21.2",
+    "bootstrap": "^5.0.0",
+    "confetti-js": "0.0.18",
+    "currency.js": "^2.0.3",
+    "jquery": "^3.6.0",
+    "moment": "^2.29.4",
+    "node-sass": "npm:sass@^1.32.13",
+    "popper.js": "^1.16.1",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-animated-bg": "^1.1.2",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-paypal-button-v2": "^2.6.1",
+    "react-router-dom": "^5.1.2",
+    "react-router-transition": "^2.1.0",
+    "react-scripts": "^4.0.3",
+    "react-transition-group": "^4.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "sass": "src/sass/custom.scss",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "proxy": "http://localhost:3001",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^7.26.0",
+    "eslint-plugin-react": "^7.23.2"
+  }
+}
